@@ -5,6 +5,7 @@
   --primary-text-color-light: #ffffff;
   --button-color: #4d5ae5;
   --background-color: #2e2f42;
+  --background-color-secondary: #f4f4fd;
 }
 
 /* Скидання маркування списків */
@@ -150,6 +151,18 @@ body {
   background: var(--accent-color);
 }
 /* ================================== /HERO ================================== */
+
+/* ================================== OUR TEAM ================================== */
+
+.team {
+  background: var(--background-color-secondary);
+}
+
+.team-list-item {
+  background: var(--primary-text-color-light);
+}
+
+/* ================================== /OUR TEAM ================================== */
 
 /* ================================== PORTFOLIO ================================== */
 
