@@ -6,6 +6,8 @@
   --button-color: #4d5ae5;
   --background-color: #2e2f42;
   --background-color-secondary: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+  --footer-logo-color: #f4f4fd;
 }
 
 /* Скидання маркування списків */
@@ -28,12 +30,12 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .list-title {
+  color: var(--primary-text);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -41,7 +43,7 @@ body {
 }
 
 .list-description {
-  font-weight: 400;
+  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -72,6 +74,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-text);
 }
 
 .menu-link:hover,
@@ -80,19 +83,22 @@ body {
 }
 
 /* Контактна інформація */
-.contacts-item {
+
+.contacts-phone {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.contacts-phone {
   color: var(--secondary-text-color);
 }
 
 .contacts-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 .contacts-phone:hover,
@@ -117,25 +123,16 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07px;
-  text-align: center;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-light);
 }
 
 .modal-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--primary-text-color-light);
 
@@ -167,20 +164,15 @@ body {
 /* ================================== PORTFOLIO ================================== */
 
 .filter-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-  width: 116px;
-  height: 48px;
-  background: #f4f4fd;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background: var(--background-color-secondary);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  color: var(--button-color);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   cursor: pointer;
 }
 
@@ -190,15 +182,42 @@ body {
   background: var(--accent-color);
 }
 
+.catalog-list-item {
+  background: var(--primary-text-color-light);
+  border: 1px solid #e7e9fc;
+}
+
+.catalog-list-item:hover,
+.catalog-list-item:focus {
+  border: 1px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.catalog-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text);
+}
+
+.catalog-list-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
 /* ================================== /PORTFOLIO================================== */
 
 /* ================================== FOOTER ================================== */
 /* Стилі підвалу */
 .footer-description {
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--footer-text-color);
 }
 
 .page-footer {
@@ -206,6 +225,6 @@ body {
 }
 
 .logo-footer {
-  color: #f4f4fd;
+  color: var(--footer-logo-color);
 }
 /* ================================== /FOOTER ================================== */
