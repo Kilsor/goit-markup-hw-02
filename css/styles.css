@@ -161,33 +161,31 @@ body {
 
 /* ================================== PORTFOLIO ================================== */
 
-.filter-btn {
-  font-family: "Roboto";
+.catalog-filter-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--button-color);
   background: var(--background-color-secondary);
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--footer-text-color);
   border-radius: 4px;
   cursor: pointer;
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.catalog-filter-btn:hover,
+.catalog-filter-btn:focus {
   color: var(--primary-text-color-light);
   background: var(--accent-color);
 }
 
 .catalog-list-item {
   background: var(--primary-text-color-light);
-  border: 1px solid #e7e9fc;
 }
 
 .catalog-list-item:hover,
 .catalog-list-item:focus {
-  border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
