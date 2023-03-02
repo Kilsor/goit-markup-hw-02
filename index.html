@@ -16,35 +16,41 @@
 
   <body>
     <!-- Шапка сторінки -->
-    <header class="page-header">
-      <nav class="page-nav">
+    <header class="header">
+      <nav class="header-nav">
         <!-- Логотип -->
-        <a class="logo link" href="./index.html"
+        <a class="header-logo link" href="./index.html"
           ><span class="logo-style">Web</span>Studio</a
         >
+
         <!-- Меню -->
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Studio</a>
+        <ul class="header-menu list">
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="./index.html">Studio</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
           </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
+
       <!-- Контактна інформація -->
-      <address class="contacts">
-        <ul class="contacts-list list">
-          <li class="contacts-item">
-            <a class="contacts-mail link" href="mailto:info@devstudio.com"
+      <address class="header-contacts">
+        <ul class="header-contacts-list list">
+          <li class="header-contacts-item">
+            <a
+              class="header-contacts-link link"
+              href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts-item">
-            <a class="contacts-phone link" href="tel:+110001111111"
+          <li class="header-contacts-item">
+            <a class="header-contacts-link link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -56,38 +62,38 @@
     <main>
       <!-- Заставка -->
       <section class="hero">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="modal-btn" type="button">Order Service</button>
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-btn" type="button">Order Service</button>
       </section>
 
       <!-- Переваги -->
       <section class="about">
         <h2 hidden>About us</h2>
-        <ul class="list">
+        <ul class="about-list list">
           <li>
-            <h3 class="list-title">Strategy</h3>
-            <p class="list-description">
+            <h3 class="about-list-title list-title">Strategy</h3>
+            <p class="about-list-description list-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="list-title">Punctuality</h3>
-            <p class="list-description">
+            <h3 class="about-list-title list-title">Punctuality</h3>
+            <p class="about-list-description list-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3 class="list-title">Diligence</h3>
-            <p class="list-description">
+            <h3 class="about-list-title list-title">Diligence</h3>
+            <p class="about-list-description list-description">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="list-title">Technologies</h3>
-            <p class="list-description">
+            <h3 class="about-list-title list-title">Technologies</h3>
+            <p class="about-list-description list-description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -96,22 +102,24 @@
       </section>
 
       <!-- Що ми робимо -->
-      <section>
-        <h2 class="title">What are we doing</h2>
-        <ul class="list">
-          <li>
+      <section class="works">
+        <h2 class="works-title title">What are we doing</h2>
+        <ul class="works-list list">
+          <li class="work-list-item">
             <img src="./images/mac.jpg" alt="Macbook" width="360" />
           </li>
-          <li>
+          <li class="work-list-item">
             <img src="./images/messenger.jpg" alt="Messenger" width="360" />
           </li>
-          <li><img src="./images/app.jpg" alt="Apps" width="360" /></li>
+          <li class="work-list-item">
+            <img src="./images/app.jpg" alt="Apps" width="360" />
+          </li>
         </ul>
       </section>
 
       <!-- Наша команда -->
       <section class="team">
-        <h2 class="title">Our Team</h2>
+        <h2 class="team-title title">Our Team</h2>
         <ul class="team-list list">
           <li class="team-list-item">
             <img
@@ -119,31 +127,35 @@
               alt="Mark Guerrero"
               width="264"
             />
-            <h3 class="list-title">Mark Guerrero</h3>
-            <p class="list-description">Product Designer</p>
+            <h3 class="team-list-title list-title">Mark Guerrero</h3>
+            <p class="team-list-description list-description">
+              Product Designer
+            </p>
           </li>
           <li class="team-list-item">
             <img src="./images/imgford.jpg" alt="Tom Ford" width="264" />
-            <h3 class="list-title">Tom Ford</h3>
-            <p class="list-description">Frontend Developer</p>
+            <h3 class="team-list-title list-title">Tom Ford</h3>
+            <p class="team-list-description list-description">
+              Frontend Developer
+            </p>
           </li>
           <li class="team-list-item">
             <img src="./images/imggarcia.jpg" alt="Camila Garcia" width="264" />
-            <h3 class="list-title">Camila Garcia</h3>
-            <p class="list-description">Marketing</p>
+            <h3 class="team-list-title list-title">Camila Garcia</h3>
+            <p class="team-list-description list-description">Marketing</p>
           </li>
           <li class="team-list-item">
             <img src="./images/imgwilson.jpg" alt="Daniel Wilson" width="264" />
-            <h3 class="list-title">Daniel Wilson</h3>
-            <p class="list-description">UI Designer</p>
+            <h3 class="team-list-title list-title">Daniel Wilson</h3>
+            <p class="team-list-description list-description">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <!-- Підвал сторінки -->
-    <footer class="page-footer">
-      <a class="logo logo-footer link" href="./index.html"
+    <footer class="footer">
+      <a class="footer-logo logo link" href="./index.html"
         ><span class="logo-style">Web</span>Studio</a
       >
       <p class="footer-description">
